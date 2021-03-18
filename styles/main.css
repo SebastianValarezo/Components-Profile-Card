@@ -248,6 +248,20 @@ body {
   font-size: 12px;
 }
 
+.footer {
+  position: absolute;
+  top: 535px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
 @media screen and (max-width: 375px) {
   .container-card {
     margin: 0 25px;
