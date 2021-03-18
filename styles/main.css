@@ -290,4 +290,14 @@ body {
     left: 152px;
     transform: rotateZ(19deg);
   }
+
+  .footer {
+    position: absolute;
+    top: 640px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+  }
 }
