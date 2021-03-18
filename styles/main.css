@@ -69,7 +69,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
 }
 
 .card {
@@ -252,12 +252,13 @@ body {
 
 .footer {
   position: absolute;
-  top: 535px;
-  left: 0;
-  right: 0;
+  bottom: 0;
+  transform: translateY(190%);
+  margin: 0 auto;
   text-align: center;
   font-size: 10px;
   color: #fff;
+  /* border: 1px solid red; */
 }
 
 .footer a {
@@ -292,13 +293,7 @@ body {
   }
 
   .footer {
-    position: absolute;
-    top: 640px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 10px;
-    color: #fff;
+    font-size: 8px;
   }
   /* --------- */
 }
